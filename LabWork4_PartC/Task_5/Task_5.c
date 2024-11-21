@@ -85,10 +85,10 @@ int main() {
                     scanf(" %c", &num);
                     if (num == '.') {
                         p[i][j] = 0;
-                        break;
+                        
                     } else if (num == '*') {
                         p[i][j] = -1;
-                        break;
+                        
                     } else {
                         printf("Ошибка ввода.\n");
                         j--;
